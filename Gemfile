@@ -16,6 +16,10 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
+gem 'toastr-rails'
+gem 'inherited_resources', '~> 1.7'
+gem 'activeadmin', :git => 'https://github.com/activeadmin/activeadmin'
+gem 'active_skin'
 
 group :development, :test do
   gem 'sqlite3'
