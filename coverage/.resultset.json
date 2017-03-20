@@ -9,6 +9,89 @@
         1,
         null
       ],
+      "/Users/benstein/Desktop/Git/firecracker/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/benstein/Desktop/Git/firecracker/app/models/admin_user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/benstein/Desktop/Git/firecracker/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/benstein/Desktop/Git/firecracker/app/admin/admin_user.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/benstein/Desktop/Git/firecracker/app/admin/dashboard.rb": [
+        1,
+        null,
+        5,
+        null,
+        5,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/benstein/Desktop/Git/firecracker/app/models/user.rb": [
         1,
         null,
@@ -22,7 +105,7 @@
         1,
         null,
         1,
-        0,
+        2,
         null,
         null
       ],
@@ -30,39 +113,13 @@
         1,
         null
       ],
-      "/Users/benstein/Desktop/Git/firecracker/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/benstein/Desktop/Git/firecracker/app/channels/application_cable/channel.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/benstein/Desktop/Git/firecracker/app/channels/application_cable/connection.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/benstein/Desktop/Git/firecracker/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
       "/Users/benstein/Desktop/Git/firecracker/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
-      ],
-      "/Users/benstein/Desktop/Git/firecracker/app/models/application_record.rb": [
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1489971036
+    "timestamp": 1490021004
   }
 }

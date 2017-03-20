@@ -1,5 +1,13 @@
 require 'rails_helper'
 
 RSpec.describe AdminUser, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  
+  let(:admin_user) { create :admin_user }
+
+  it { should validate_presence_of(:email) }
+  it { should validate_presence_of(:password) }
+
+  it 'creates user with valid input' do 
+    expect { create :admin_user }.to change { AdminUser.count }.by(1)
+  end
 end
