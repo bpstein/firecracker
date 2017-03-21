@@ -1,6 +1,11 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/benstein/Desktop/Git/firecracker/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/benstein/Desktop/Git/firecracker/app/helpers/application_helper.rb": [
         1,
         null
@@ -10,11 +15,6 @@
         null
       ],
       "/Users/benstein/Desktop/Git/firecracker/app/helpers/party_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/benstein/Desktop/Git/firecracker/app/controllers/application_controller.rb": [
-        1,
         1,
         null
       ],
@@ -64,7 +64,7 @@
       "/Users/benstein/Desktop/Git/firecracker/app/admin/dashboard.rb": [
         1,
         null,
-        5,
+        7,
         null,
         5,
         2,
@@ -94,6 +94,51 @@
         null,
         null,
         null,
+        null
+      ],
+      "/Users/benstein/Desktop/Git/firecracker/app/admin/party.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/benstein/Desktop/Git/firecracker/app/models/party.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null
       ],
       "/Users/benstein/Desktop/Git/firecracker/app/models/user.rb": [
@@ -115,32 +160,24 @@
       ],
       "/Users/benstein/Desktop/Git/firecracker/app/controllers/pages_controller.rb": [
         1,
+        1,
+        2,
+        null,
         null
       ],
       "/Users/benstein/Desktop/Git/firecracker/app/controllers/party_controller.rb": [
         1,
         null,
-        1,
-        null,
-        1,
-        1,
         null,
         null,
         1,
         1,
         null,
         null,
-        null
-      ],
-      "/Users/benstein/Desktop/Git/firecracker/app/models/party.rb": [
         1,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
+        null,
+        null,
         null
       ],
       "/Users/benstein/Desktop/Git/firecracker/app/mailers/application_mailer.rb": [
@@ -150,6 +187,6 @@
         0
       ]
     },
-    "timestamp": 1490032327
+    "timestamp": 1490133488
   }
 }

@@ -6,3 +6,12 @@ FactoryGirl.define do
     password_confirmation "password"
   end
 end
+
+FactoryGirl.define do
+  factory :admin_user_2 do
+    email "admin@example2.com" 
+    id 2
+    password "password2"
+    password_confirmation "password2"
+  end
+end

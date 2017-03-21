@@ -1,6 +1,6 @@
 class PartyController < ApplicationController
 
-  before_action :authenticate_user!, only: [:list]
+  # before_action :authenticate_user!, only: [:list]
 
   def index
     @parties = Party.all 

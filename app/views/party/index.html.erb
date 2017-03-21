@@ -1,1 +1,14 @@
-Party index.
+<section class="bg-light-gray" data-no-turbolink>
+  <div class="container">
+    <div class="col-lg-12">
+      <h1 class="section-heading">
+        Parties
+      </h1>
+      <% @projects.each do |project| %>
+        <%= link_to project do %>
+          
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</section>
