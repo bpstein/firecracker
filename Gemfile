@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 5.0.2'
+gem 'rails', '~> 5.1.4'
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 gem 'puma', '~> 3.0'
