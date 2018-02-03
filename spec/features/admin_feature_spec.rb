@@ -11,11 +11,11 @@ feature "Guests cannot access dashboard" do
 end
 
 feature "User can access the admin dashboard" do 
-  let(:admin_user) {FactoryGirl.create :admin_user}
+  let(:admin_user) {FactoryBot.create :admin_user}
 
   context "User can view the admin dashboard " do 
     before do 
-      admin_user = FactoryGirl.create :admin_user
+      admin_user = FactoryBot.create :admin_user
       sign_in_admin
     end
 
@@ -34,7 +34,7 @@ feature "User can access the admin dashboard" do
 
   context "User can add valid projects and tasks via dashboard" do 
     before do
-      admin_user = FactoryGirl.create :admin_user
+      admin_user = FactoryBot.create :admin_user
       sign_in_admin
     end
   end

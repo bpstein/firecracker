@@ -5,7 +5,7 @@ RSpec.describe Admin::PartiesController, type: :controller do
 
   DatabaseCleaner.clean
   render_views
-  let(:admin_user) { FactoryGirl.create :admin_user }
+  let(:admin_user) { FactoryBot.create :admin_user }
 
   before(:each) do
     DatabaseCleaner.clean
@@ -14,7 +14,7 @@ RSpec.describe Admin::PartiesController, type: :controller do
 
   describe '#index' do 
     it 'renders the index' do
-      FactoryGirl.create :party
+      FactoryBot.create :party
       get :index 
       expect(response).to have_http_status(:success)
     end
@@ -32,7 +32,7 @@ RSpec.describe Admin::PartiesController, type: :controller do
     it 'updates party' do
       @party = Party.create! name: 'Small Gathering', description: 'My dinner party', content: 'small meal with friends', category: 'homely', date: '2 Feb 2018', location: 'Paris', price: 65
       patch :update, params: {id: @party, 
-        party: FactoryGirl.attributes_for(:party, 
+        party: FactoryBot.attributes_for(:party, 
           name: 'New Party A', 
           description: 'This is my next party',
           content: 'This is a new and improved party.',

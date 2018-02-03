@@ -5,7 +5,7 @@
   
 #   render_views
 
-#   let(:admin_user_2) { FactoryGirl.create :admin_user_2} 
+#   let(:admin_user_2) { FactoryBot.create :admin_user_2} 
 
 #   before(:each) do
 #     DatabaseCleaner.clean

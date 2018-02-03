@@ -40,13 +40,14 @@ gem 'jquery-slick-rails'
 gem 'aws-sdk'
 gem 's3_direct_upload'
 gem 'annotate'
+gem 'bourbon'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '~> 3.5'
   gem 'rails-controller-testing'
   gem 'byebug', platform: :mri
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'database_cleaner'
   gem 'ffaker'

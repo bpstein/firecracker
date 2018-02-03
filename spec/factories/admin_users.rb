@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :admin_user do
     email "admin@example.com" 
     id 1
@@ -7,7 +7,7 @@ FactoryGirl.define do
   end
 end
 
-FactoryGirl.define do
+FactoryBot.define do
   factory :admin_user_2 do
     email "admin@example2.com" 
     id 2
