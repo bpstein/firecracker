@@ -16,6 +16,16 @@ GIT
       sprockets-es6 (>= 0.9.2)
 
 GIT
+  remote: https://github.com/anup1710/active_admin-sortable_tree
+  revision: 1a1e528018bc10dc66e187ddcebfc190a184ef03
+  specs:
+    active_admin-sortable_tree (2.0.0)
+      activeadmin (>= 1.1)
+      coffee-rails
+      jquery-rails
+      sass (~> 3.1)
+
+GIT
   remote: https://github.com/ernie/ransack
   revision: 8b36204916a0d3c3950cd1fc2e9cdb1f81e61ea5
   specs:
@@ -77,10 +87,6 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    active_admin-sortable_tree (0.2.1)
-      activeadmin (>= 0.6)
-      jquery-ui-rails (~> 5.0)
-      rails (>= 3.2)
     active_skin (0.0.12)
     activejob (5.1.4)
       activesupport (= 5.1.4)
@@ -961,7 +967,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_admin-sortable_tree (~> 0.2.1)
+  active_admin-sortable_tree!
   active_skin
   activeadmin!
   annotate
