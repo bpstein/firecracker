@@ -35,7 +35,20 @@ feature "User can access the admin dashboard" do
   context "User can add valid projects and tasks via dashboard" do 
     before do
       admin_user = FactoryBot.create :admin_user
+      party      = FactoryBot.create :party 
       sign_in_admin
+      visit('/admin/parties/new')
+      fill_in('Name', with: 'Party X')
+      fill_in('Description', with: 'Big Party!')
+      fill_in('Content', with: 'Party on the Beach')
+      fill_in('Category', with: 'Beach Party')
+      fill_in('Location', with: 'Venice Beach')
+      select "2018", :from => "Year"
+      select "March", :from => "Month"
+      select "30", :from => "Day"
+      fill_in('Price', with: "$50")
+      visit '/admin/parties/1'
+      expect(page).to have_content('Party X')
     end
   end
 end
