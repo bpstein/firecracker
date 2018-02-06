@@ -1,0 +1,61 @@
+# language: ruby
+
+# rvm: '2.2.3'
+
+# env:
+#   - DB=sqlite
+#   - DB=postgresql
+
+# before_install:
+#   - sed -i '2d' Gemfile
+#   - sudo apt-get update -qq
+#   - sudo apt-get install -qq postgresql-server-dev-9.3
+#   - sudo rm -rf /usr/local/phantomjs       
+
+# install:
+#   - bundle install --path vendor/bundle
+#   # - npm install                                                                                                                                                                                                   
+
+# before_script:
+#   - psql -c 'create database promodel;' -U postgres
+#   # - npm install karma-phantomjs-launcher -save-dev
+#   # - npm install phantomjs-prebuilt
+#   - export DISPLAY=:99.0
+#   - sh -e /etc/init.d/xvfb start
+
+# bundler_args: --binstubs=./bundler_stubs
+
+# script:
+#   - mkdir -p spec && bundle exec rspec spec
+#   - bundle exec bin/rake db:create
+#   - bundle exec bin/rake db:migrate
+#   - bundle exec bin/rake db:migrate RAILS_ENV=test
+#   - bundle exec rspec spec
+rvm: '2.4.2'
+
+before_install:
+- sed -i '2d' Gemfile
+- sudo apt-get update -qq
+- sudo apt-get install -qq postgresql-server-dev-9.3
+- wget https://s3.amazonaws.com/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2
+- tar -xjf phantomjs-2.0.0-ubuntu-12.04.tar.bz2
+- sudo rm -rf /usr/local/phantomjs/bin/phantomjs
+- sudo mv phantomjs /usr/local/phantomjs/bin/phantomjs
+
+before_script:
+  - psql -c 'create database promodel_test;' -U postgres
+  - rake db:migrate RAILS_ENV=test
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+
+script: 
+  - bundle exec bin/rake db:seed db:create db:migrate
+  - bundle exec bin/rake db:migrate
+  - bundle exec bin/rake db:seed
+
+script: bundle exec rspec spec
+
+script:
+  - mkdir -p spec && bundle exec rspec spec
+
+bundler_args: --binstubs=./bundler_stubs
