@@ -23,7 +23,9 @@ Things you may want to cover:
 
 * ... -->
 
-[![Build Status](https://travis-ci.org/bpstein/firecracker.svg?branch=master)](https://travis-ci.org/bpstein/firecracker) [![Coverage Status](https://coveralls.io/repos/github/bpstein/firecracker/badge.svg?branch=master)](https://coveralls.io/github/bpstein/firecracker?branch=master) [![Code Climate](https://codeclimate.com/github/bpstein/firecracker/badges/gpa.svg)](https://codeclimate.com/github/bpstein/firecracker)
+[![Build Status](https://travis-ci.org/bpstein/firecracker.svg?branch=master)](https://travis-ci.org/bpstein/firecracker)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1cc2aa9fd98e4bd85e22/maintainability)](https://codeclimate.com/github/bpstein/firecracker/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1cc2aa9fd98e4bd85e22/test_coverage)](https://codeclimate.com/github/bpstein/firecracker/test_coverage)
 
 # Firecracker
 
