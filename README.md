@@ -23,6 +23,7 @@ Things you may want to cover:
 
 * ... -->
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bf1eb8489d6c4fe68bd60bee293313f1)](https://app.codacy.com/app/bpstein/firecracker?utm_source=github.com&utm_medium=referral&utm_content=bpstein/firecracker&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/bpstein/firecracker.svg?branch=master)](https://travis-ci.org/bpstein/firecracker)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1cc2aa9fd98e4bd85e22/maintainability)](https://codeclimate.com/github/bpstein/firecracker/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1cc2aa9fd98e4bd85e22/test_coverage)](https://codeclimate.com/github/bpstein/firecracker/test_coverage)
